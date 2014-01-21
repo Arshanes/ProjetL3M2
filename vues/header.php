@@ -4,9 +4,9 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Demo</title>
-		<link rel="stylesheet" type="text/css" href="../asset/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="asset/css/bootstrap.css"/>
 		<!--<link rel="stylesheet" type="text/css" href="../asset/css/style.css"/>-->
-		<script type="text/javascript" src="../asset/css/bootstrap.css"></script>
+		<script type="text/javascript" src="asset/css/bootstrap.css"></script>
 	</head>
 	<body>
 		<!-- HEADER-->
