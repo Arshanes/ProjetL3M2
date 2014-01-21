@@ -3,9 +3,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Demo</title>
+		<title>Projet L3M2</title>
 		<link rel="stylesheet" type="text/css" href="asset/css/bootstrap.css"/>
-		<!--<link rel="stylesheet" type="text/css" href="../asset/css/style.css"/>-->
+		<link rel="stylesheet" type="text/css" href="asset/css/style.css"/>
 		<script type="text/javascript" src="asset/css/bootstrap.css"></script>
 	</head>
 	<body>
@@ -18,30 +18,21 @@
 						<h1>Projet M2L3</h1>
 					</div>
 					<!--Bloc Menu -->
-					<nav class="span5 navbar">
-						<div class="navbar-inner">
-							<a class="brand" href="#">Accueil</a>
-							<ul class="nav">
-								<li class="active"><a href="#">Gestion des patterns</a></li>
-								<li><a href="#">Administration</a></li>
-								<li><a href="#">Link</a></li>
-							</ul>
-						</div>
+					<nav class="span5" id="cssmenu">
+						<ul>
+							<li><a href="#">Accueil</a></li>
+							<li><a href="#">Gestion des patterns</a></li>
+							<li><a href="#">Administration</a></li>
+						</ul>
 					</nav>
 					<!--Bloc login -->
-					<div class="span4">
-						    <form class="form-inline">
-							    <input type="text" class="input-small" placeholder="Login">
-							    <input type="password" class="input-small" placeholder="Password">
-							    <button type="submit" class="btn">Connexion</button>
-							    <a>Creer un compte</a>
-							</form>
-					</div>
-				</div>
-				<!--Fil d'ariane-->
-				<div class="row-fluid">
-					<div class="span12">
-						<u>Accueil</u> > <strong>Gestion pattern</strong>
+					<div class="span4" id="blocLog">
+					    <form class="form-inline">
+						    <input type="text" class="input-small" placeholder="Login">
+						    <input type="password" class="input-small" placeholder="Password">
+						    <button type="submit" class="btn">Connexion</button>
+						    <a>Creer un compte</a>
+						</form>
 					</div>
 				</div>
 			</div>
