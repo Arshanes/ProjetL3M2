@@ -1,0 +1,46 @@
+header{
+	
+	background: #141414;
+	background-image:url(../img/backgroundHeader.jpg);
+	border-bottom: 2px solid #DD912B;
+	box-shadow: 0px 8px 10px -5px #DD912B;
+	
+	animation-name: light; /* nom de l'animation */
+	animation-duration: 4s; /* temps de l'animation (4s) */
+	animation-iteration-count: infinite; /* nombre de boucles (infinie) */
+	animation-timing-function: linear; /* accelération de l'animation (constant) */
+}
+
+@keyframes light {
+0% {box-shadow: 0px 8px 10px -5px #DD912B; 	border-bottom: 2px solid #DD912B;}
+50% {box-shadow: 0px 8px 10px -5px #BD710B; border-bottom: 2px solid #BD710B;}
+100% {box-shadow: 0px 8px 10px -5px #DD912B; border-bottom: 2px solid #DD912B;}
+}
+
+body{
+	background-image: url(../img/background.jpg);
+	color: #ddd;
+}
+
+#container{
+	min-height: 150px;
+}
+
+footer{
+	background-image:url(../img/backgroundHeader.jpg);
+	margin: auto;
+    height: 70px;
+    width: 90%;
+	box-shadow: 0px 0px 50px #000 inset;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.btn{
+	
+}
+
+
+.btn:hover{
+	
+}
