@@ -18,7 +18,7 @@
 						<h1>Projet M2L3</h1>
 					</div>
 					<!--Bloc Menu -->
-					<nav class="span5" id="cssmenu">
+					<nav class="span5" id="menu">
 						<ul>
 							<li><a href="#">Accueil</a></li>
 							<li><a href="#">Gestion des patterns</a></li>
@@ -30,7 +30,7 @@
 					    <form class="form-inline">
 						    <input type="text" class="input-small" placeholder="Login">
 						    <input type="password" class="input-small" placeholder="Password">
-						    <button type="submit" class="btn">Connexion</button>
+						    <button type="submit" class="submit">Connexion</button>
 						    <a>Creer un compte</a>
 						</form>
 					</div>
