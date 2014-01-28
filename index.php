@@ -1,7 +1,9 @@
 <?php 
 include('./vues/header.php');
-
-include('./vues/accueil.php');
-
+?>
+<div id="container">
+<?php include('./vues/inscription.php'); ?>
+</div>
+<?php
 include('./vues/footer.php');
 ?>
