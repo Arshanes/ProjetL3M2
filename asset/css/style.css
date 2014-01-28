@@ -37,3 +37,19 @@ header{
 #cssmenu a:hover{
 	color: #000000;
 }
+
+.red {
+	color: red;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.submit {
+	display: inline-block;
+}
+
+#centrer_bouton {
+	text-align: center;
+}
