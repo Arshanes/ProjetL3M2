@@ -8,12 +8,6 @@ h2{
   margin: 0;
   padding: 0;
 }
-header{
-	border-bottom: 1px solid black;
-	color: #eee;
-	background-image: url('../img/backgroundBlack.jpg');
-  border-bottom: 2px solid #DD912B;
-}
 
 a{
   color: #DD912B;
@@ -32,7 +26,7 @@ p{
 }
 
 .red {
-  color: red;
+  color: #770000;
 }
 
 .bold {
@@ -40,11 +34,24 @@ p{
 }
 
 /*Entête*/
-#blocLog{
-	margin-top: 16px;
+/*_________________________________________________________________________________________________________*/
+header{
+  text-align: center;
+  border-bottom: 1px solid black;
+  color: #eee;
+  background-image: url('../img/backgroundBlack.jpg');
+  border-bottom: 2px solid #DD912B;
 }
 
-#menu > ul > li {
+
+#nameSite{
+  float: left;
+}
+
+nav{
+  display: inline-block;
+}
+nav > ul > li {
   	display: inline-block;
   	list-style: none;
   	margin-top: 7px;
@@ -53,11 +60,11 @@ p{
   	border-left: solid 1px #eee;
 }
 
-#menu > ul > li:first-child{
+nav > ul > li:first-child{
 	border: none;
 }
 
-#menu a {
+nav a {
   color: #ffffff;
   text-shadow: 1px 1px 2px #444444, -1px -1px #444444;
   font-family: Helvetica, Arial, Verdana, sans-serif;
@@ -69,9 +76,15 @@ p{
   transition-duration: 0.3s;
 }
 
-#menu a:hover, #menu a:focus{
+nav a:hover, nav a:focus{
   color: #DD912B;
   text-shadow: 1px 1px 1px #111;
+}
+
+#blocLog{
+  margin-top: 16px;
+  margin-right: 10px;
+  float:right;
 }
 
 #blocLog .input-small{
@@ -107,9 +120,11 @@ p{
 }
 
 /*Contenu*/
+/*_________________________________________________________________________________________________________*/
 
 #container{
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .contenu-block{
@@ -123,7 +138,7 @@ p{
 }
 
 .headerBox{
-  height: 30px;
+  min-height: 30px;
   letter-spacing: 2px;
   line-height: 27px;
   font-size: 1.1em;
@@ -143,8 +158,30 @@ p{
 }
 
 /*Formulaires*/
+/*_________________________________________________________________________________________________________*/
 
 form{
+}
+
+fieldset{
+  margin: 10px;
+  margin-bottom: 15px;
+  border-left: 2px solid #DD912B;
+  box-shadow: 5px 0px 5px -5px #DD912B inset;
+}
+
+legend{
+  height: 30px;
+  width: 70%;
+  padding-left: 15px;
+  line-height: 27px;
+  font-size: 1.05em;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #DD912B;
+  color: #ffffff;
+  box-shadow: 0px 5px 5px -5px #DD912B;
+  text-shadow: 2px 2px 5px #333;
+  font-family: "Trebuchet MS";
 }
 
 label{
@@ -152,4 +189,58 @@ label{
   float: left;
   width: 200px;
   margin-left: 30px;
+}
+
+form .input-large{
+  margin-left: 15px;
+  background-image: url('../img/backgroundGrey.jpg');
+  border: 1px solid #222;
+  box-shadow: 1px 1px #1F1F1F inset;
+  color: #ddd;
+  text-shadow: 1px 1px 3px #111;
+}
+
+form .input-large:focus{
+  border: 1px solid #222;
+  box-shadow: 1px 1px 2px #DD912B inset, -1px -1px 2px #DD912B inset;
+}
+
+.submit{
+  width: 90px;
+  height: 31px;
+  line-height: 17px;
+  background-color: #BD710B;
+  border: 1px solid #333;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px #222 inset, -1px -1px #222 inset;
+  color: #ddd;
+  text-shadow: 0px 0px 2px #000;
+  transition-property: background-color,color;
+  transition-duration: 0.2s;
+}
+
+.submit:hover,.submit:focus{
+  color: #BD710B;
+  text-shadow: 1px 1px 2px #BD710B;
+  background-color: #111;
+}
+
+.reset{
+  width: 90px;
+  height: 31px;
+  line-height: 17px;
+  background-color: #BD710B;
+  border: 1px solid #333;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px #333 inset, -1px -1px #333 inset;
+  color: #ddd;
+  text-shadow: 1px 1px 2px #000;
+  transition-property: background-color,color;
+  transition-duration: 0.2s;
+}
+
+.submit:hover{
+  color: #BD710B;
+  text-shadow: 1px 1px 2px #BD710B;
+  background-color: #111;
 }
