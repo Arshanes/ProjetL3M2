@@ -28,8 +28,8 @@
 					<!--Bloc login -->
 					<div class="span4" id="blocLog">
 					    <form class="form-inline">
-						    <input type="text" class="input-small" placeholder="Login">
-						    <input type="password" class="input-small" placeholder="Password">
+						    <input type="text" name="login" class="input-small" placeholder="Login"/>
+						    <input type="password" name="password" class="input-small" placeholder="Password"/>
 						    <button type="submit" class="submit">Connexion</button>
 						    <a>Creer un compte</a>
 						</form>
