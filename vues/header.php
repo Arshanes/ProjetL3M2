@@ -29,7 +29,7 @@
 					    <form class="form-inline">
 						    <input type="text" class="input-small" placeholder="Login">
 						    <input type="password" class="input-small" placeholder="Password">
-						    <button type="submit" class="submit">Connexion</button>
+						    <button type="submit" class="submit" id="connexion">Connexion</button>
 						    <a>Creer un compte</a>
 						</form>
 					</div>
