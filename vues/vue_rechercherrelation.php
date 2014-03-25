@@ -36,7 +36,7 @@
 				</form>
 			</div>
 
-			<div class="rightSideDiv">
+			<div class="rightSideDiv searchPattern">
 				<fieldset>
 					<legend>Résultats de la recherche :</legend>
 						<button class="submit" type="button"/>Modifier</button>

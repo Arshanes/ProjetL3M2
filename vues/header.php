@@ -19,8 +19,13 @@
 					    <form class="form-inline">
 						    <input type="text" name="login" class="input-small" placeholder="Login"/>
 						    <input type="password" name="password" class="input-small" placeholder="Password"/>
+							<select name="choix_repository" id="choix_repository">
+									<option value="">Repository</option>
+									<option value="">...</option>
+									<option value="">.....</option>
+									<option value="">.......</option>
+							</select>
 						    <button type="submit" class="submit">Connexion</button>
-						    <a href ="#">Creer un compte</a>
 						</form>
 					</div>
 				</div>

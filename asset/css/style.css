@@ -324,7 +324,6 @@ form .input-large:focus{
 
 select{
   width: 225px;
-  margin-left: 200px;
   background-image: url('../img/backgroundGrey.jpg');
   border: 1px solid #222;
   box-shadow: 1px 1px #1F1F1F inset;
