@@ -11,7 +11,7 @@
 						<ul>
 							<li><a href="index.php">Accueil</a></li>
 							<li><a href="gestionPattern.php">Gestion des patterns</a></li>
-							<li><a href="#">Administration</a></li>
+							<li><a href="administration.php">Administration</a></li>
 						</ul>
 					</nav>
 					<!--Bloc login -->
