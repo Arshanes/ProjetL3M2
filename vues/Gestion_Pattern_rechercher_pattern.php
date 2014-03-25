@@ -1,4 +1,4 @@
-<<<<<<< HEAD:vues/Gestion_Pattern_rechercher_pattern.php
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
@@ -38,7 +38,7 @@
 				</div>
 			</div>
 		</header>
-=======
+
 <!--CONTENU-->
 <div class="row-fluid">
 	<p class="divCenter">Que souhaitez-vous faire?</p>
@@ -47,7 +47,6 @@
 	
 		<label for="rechercher" class="radio inline">Rechercher</label>
 			<input type="radio" name="origine" value="rechercher" id="rechercher"/>
->>>>>>> 959e778f9e9d58640ebea6b2bd86ba31556ba82c:vues/Gestion_Pattern_rechercher_pattern.html
 		
 		<label for="ajouter" class="radio inline" >Ajouter</label>
 			<input type="radio" name="origine" value="ajouter" id="ajouter"/>
