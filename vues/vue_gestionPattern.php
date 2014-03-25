@@ -17,7 +17,7 @@
 					<input type="radio" name="origine" value="relation" id="relation"/>
 					<label for="ajouter">Relation</label>
 				</form>
-				<form>
+				<form class="searchPattern">
 					<fieldset>
 						<legend>Caractéristiques du pattern recherché:</legend>
 						<label for="nom" class="labelInput">Nom :</label>
@@ -49,7 +49,7 @@
 				</form>
 			</div>
 
-			<div class="rightSideDiv">
+			<div class="rightSideDiv searchPattern">
 				<fieldset>
 					<legend>Pattern correspondant à la recherche:</legend>
 					<p>Lorem ipsum et j'connais pas la suite...
