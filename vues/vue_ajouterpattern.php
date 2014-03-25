@@ -12,10 +12,10 @@
 			<div class="leftSideDiv">
 				<form>
 					<input type="radio" name="origine" value="pattern" id="pattern" checked />
-					<label for="rechercher">Pattern</label>
+					<label for="pattern">Pattern</label>
 				
 					<input type="radio" name="origine" value="relation" id="relation"/>
-					<label for="ajouter">Relation</label>
+					<label for="relation">Relation</label>
 				</form>
 				<form class="searchPattern">
 					<fieldset>
