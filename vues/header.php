@@ -26,10 +26,6 @@
 									<option value="">.......</option>
 							</select>
 						    <button type="submit" class="submit">Connexion</button>
-<<<<<<< HEAD
-						    <a href ="inscription.php">Creer un compte</a>
-=======
->>>>>>> 24e2f089edef255a0ac8c95312b836c826f3c7ad
 						</form>
 					</div>
 				</div>
