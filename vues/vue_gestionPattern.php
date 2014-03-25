@@ -1,20 +1,22 @@
 <!--CONTENU-->
 		<div class="contenu-blockLarge">
 			<h2 class="headerBox">Que souhaitez-vous faire?</h2>
-			
-			<input type="radio" name="origine" value="rechercher" id="rechercher"/>
-			<label for="rechercher">Rechercher</label>
-			
-			<input type="radio" name="origine" value="ajouter" id="ajouter"/>
-			<label for="ajouter">Ajouter</label>
-			
+			<form>
+				<input type="radio" name="origine" value="rechercher" id="rechercher"/>
+				<label for="rechercher">Rechercher</label>
+				
+				<input type="radio" name="origine" value="ajouter" id="ajouter"/>
+				<label for="ajouter">Ajouter</label>
+			</form>
 			<h3>Rechercher: </h3>
 			<div class="leftSideDiv">
-				<input type="radio" name="origine" value="pattern" id="pattern"/>
-				<label for="rechercher">Pattern</label>
+				<form>
+					<input type="radio" name="origine" value="pattern" id="pattern" checked />
+					<label for="rechercher">Pattern</label>
 				
-				<input type="radio" name="origine" value="relation" id="relation"/>
-				<label for="ajouter">Relation</label>
+					<input type="radio" name="origine" value="relation" id="relation"/>
+					<label for="ajouter">Relation</label>
+				</form>
 				<form>
 					<fieldset>
 						<legend>Caractéristiques du pattern recherché:</legend>
