@@ -10,6 +10,37 @@
 		<script type="text/javascript" src="../asset/js/calendrier.js"></script>
 	</head>
 	<body>
+<<<<<<< HEAD:vues/Gestion_Pattern_rechercher_pattern.php
+=======
+		<!-- HEADER-->
+		<header class="row-fluid">
+			<div class="span12">
+				<!--Première section du header-->
+				<div class="row-fluid">
+					<div class="span3">
+						<h1>Projet M2L3</h1>
+					</div>
+					<!--Bloc Menu -->
+					<nav class="span5" id="menu">
+						<ul>
+							<li><a href="#">Accueil</a></li>
+							<li><a href="vues/Gestion_Pattern_rechercher_pattern.png">Gestion des patterns</a></li>
+							<li><a href="#">Administration</a></li>
+						</ul>
+					</nav>
+					<!--Bloc login -->
+					<div class="span4" id="blocLog">
+					    <form class="form-inline">
+						    <input type="text" class="input-small" placeholder="Login">
+						    <input type="password" class="input-small" placeholder="Password">
+						    <button type="submit" class="submit">Connexion</button>
+						    <a>Creer un compte</a>
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+>>>>>>> 9339d3f64a9c2030b34e678fc1f588e0bf652123:vues/Gestion_Pattern_rechercher_pattern.php
 
 <!--CONTENU-->
 <div class="row-fluid">
