@@ -21,7 +21,7 @@
 					<nav class="span5" id="menu">
 						<ul>
 							<li><a href="#">Accueil</a></li>
-							<li><a href="#">Gestion des patterns</a></li>
+							<li><a href="vues/Gestion_Pattern_rechercher_pattern.png">Gestion des patterns</a></li>
 							<li><a href="#">Administration</a></li>
 						</ul>
 					</nav>

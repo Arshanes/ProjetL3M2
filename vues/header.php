@@ -20,7 +20,7 @@
 					<nav>
 						<ul>
 							<li><a href="#">Accueil</a></li>
-							<li><a href="#">Gestion des patterns</a></li>
+							<li><a href="vues/Gestion_Pattern_rechercher_pattern">Gestion des patterns</a></li>
 							<li><a href="#">Administration</a></li>
 						</ul>
 					</nav>
@@ -30,7 +30,7 @@
 						    <input type="text" name="login" class="input-small" placeholder="Login"/>
 						    <input type="password" name="password" class="input-small" placeholder="Password"/>
 						    <button type="submit" class="submit">Connexion</button>
-						    <a>Creer un compte</a>
+						    <a href ="#">Creer un compte</a>
 						</form>
 					</div>
 				</div>
