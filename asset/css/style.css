@@ -2,11 +2,16 @@ body{
 	background-color: #333;
   background-image: url('../img/backgroundGrey.jpg');
   color: #ddd;
+  min-width: 1080px;
 }
 
 h2{
   margin: 0;
   padding: 0;
+}
+
+h3{
+  margin-left: 15px;
 }
 
 a{
@@ -137,6 +142,28 @@ nav a:hover, nav a:focus{
   box-shadow: 1px 1px 1px #333 inset, -1px -1px 1px #333 inset;
 }
 
+.contenu-blockLarge{
+  margin:auto;
+  overflow: hidden;
+  display: block;
+  width: 90%;
+  background-image: url('../img/backgroundLessDark.jpg');
+  border: 1px solid #333;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px #333 inset, -1px -1px 1px #333 inset;
+}
+
+.leftSideDiv{
+  margin-left: 15px;
+  float: left;
+  width: 45%;
+}
+
+.rightSideDiv{
+  float:right;
+  width: 45%;
+}
+
 .headerBox{
   min-height: 30px;
   letter-spacing: 2px;
@@ -186,12 +213,18 @@ legend{
 
 label{
   display: inline-block;
-  float: left;
-  width: 200px;
+}
+
+.labelInput{
+  width: 150px;
   margin-left: 30px;
 }
 
-<<<<<<< HEAD
+input[type=radio]{
+  vertical-align: middle;
+  margin: 15px 0px 18px 30%;
+}
+
 /*Calendrier*/
 .calendar
 {
@@ -274,7 +307,7 @@ label{
     font-weight:bold;
     background-color:#FFB0B0;
 }
-=======
+
 form .input-large{
   margin-left: 15px;
   background-image: url('../img/backgroundGrey.jpg');
@@ -287,6 +320,22 @@ form .input-large{
 form .input-large:focus{
   border: 1px solid #222;
   box-shadow: 1px 1px 2px #DD912B inset, -1px -1px 2px #DD912B inset;
+}
+
+select{
+  width: 225px;
+  margin-left: 200px;
+  background-image: url('../img/backgroundGrey.jpg');
+  border: 1px solid #222;
+  box-shadow: 1px 1px #1F1F1F inset;
+  color: #ddd;
+  text-shadow: 1px 1px 3px #111;
+}
+
+select:focus{
+  border: 1px solid #222;
+  text-shadow: none;
+  color: black;
 }
 
 .submit{
@@ -328,4 +377,3 @@ form .input-large:focus{
   text-shadow: 1px 1px 2px #BD710B;
   background-color: #111;
 }
->>>>>>> bd0c730b1dfc534b912213ca66a6c268ac95e832

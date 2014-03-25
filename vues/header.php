@@ -1,13 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Projet L3M2</title>
-		<link rel="stylesheet" type="text/css" href="asset/css/bootstrap.css"/>
-		<link rel="stylesheet" type="text/css" href="asset/css/style.css"/>
-	</head>
-	<body>
 		<!-- HEADER-->
 		<header class="row-fluid">
 			<div class="span12">
@@ -19,18 +9,30 @@
 					<!--Bloc Menu -->
 					<nav>
 						<ul>
+<<<<<<< HEAD
 							<li><a href="#">Accueil</a></li>
 							<li><a href="vues/Gestion_Pattern_rechercher_pattern">Gestion des patterns</a></li>
+=======
+							<li><a href="index.php">Accueil</a></li>
+							<li><a href="gestionPattern.php">Gestion des patterns</a></li>
+>>>>>>> 959e778f9e9d58640ebea6b2bd86ba31556ba82c
 							<li><a href="#">Administration</a></li>
 						</ul>
 					</nav>
 					<!--Bloc login -->
 					<div id="blocLog">
 					    <form class="form-inline">
+<<<<<<< HEAD
 						    <input type="text" name="login" class="input-small" placeholder="Login"/>
 						    <input type="password" name="password" class="input-small" placeholder="Password"/>
 						    <button type="submit" class="submit">Connexion</button>
 						    <a href ="#">Creer un compte</a>
+=======
+						    <input type="text" class="input-small" placeholder="Login">
+						    <input type="password" class="input-small" placeholder="Password">
+						    <button type="submit" class="submit" id="connexion">Connexion</button>
+						    <a href="inscription.php">Creer un compte</a>
+>>>>>>> 959e778f9e9d58640ebea6b2bd86ba31556ba82c
 						</form>
 					</div>
 				</div>

@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Accueil - Projet L3M2</title>
+		<title>Gestion des patterns - Projet L3M2</title>
 		<link rel="stylesheet" type="text/css" href="asset/css/bootstrap.css"/>
 		<link rel="stylesheet" type="text/css" href="asset/css/style.css"/>
 	</head>
@@ -12,7 +12,7 @@
 			include('./vues/header.php');
 			?>
 			<div id="container">
-			<?php include('./vues/vue_accueil.php'); ?>
+			<?php include('./vues/Vue_gestionPattern.php'); ?>
 			</div>
 			<?php
 			include('./vues/footer.php');
