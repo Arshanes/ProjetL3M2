@@ -42,8 +42,24 @@
 
 			<div class="rightSideDiv searchPattern">
 				<fieldset>
-					<legend>Pattern correspondant à la recherche:</legend>
-					<p>Lorem ipsum et j'connais pas la suite...
+					<legend>Modify User</legend>
+					<label for="select_user"></label><br/>
+						<select name="select_user" id="pattern_type">
+							<option value="">Select a User</option>
+							<option value="">User 1</option>
+							<option value="">User 2</option>
+							<option value="">User 3</option>
+						</select>
+						
+						<button class="submit" type="button"/>Delete User</button>
+						
+						<label for="login" class="labelInput">Login :</label>
+							<input type="text" name="login" class="input-large"/><br/>
+						<label for="password" class="labelInput">Password :</label>
+							<input type="text" name="password" class="input-large"/><br/>
+						<div class="divCenter">
+							<button class="submit" type="button"/>Modify</button>
+						</div>
 				</fieldset>
 			</div>
 		</div>
