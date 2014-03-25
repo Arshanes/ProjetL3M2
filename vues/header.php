@@ -20,7 +20,7 @@
 						    <input type="text" name="login" class="input-small" placeholder="Login"/>
 						    <input type="password" name="password" class="input-small" placeholder="Password"/>
 						    <button type="submit" class="submit">Connexion</button>
-						    <a href ="#">Creer un compte</a>
+						    <a href ="inscription.php">Creer un compte</a>
 						</form>
 					</div>
 				</div>

@@ -27,20 +27,20 @@
 						<label for="mots_clé" class="labelInput">Mots-clé :</label>
 							<input type="text" name="mots_clé" class="input-large"/><br/>
 
-						<label for="classification_type"></label><br />
-							<select name="classification_type" id="classification_type">
+						<label for="classification_type"></label><br/>
+							<select name="classification_type" id="classification_type" class="selectMargin">
 									<option value="">Classification Type</option>
-									<option value="">ta Soeur</option>
-									<option value="">ta Maman</option>
-									<option value="">ta Grand-Maman</option>
+									<option value="">Exemple 1</option>
+									<option value="">Exemple 2</option>
+									<option value="">Exemple 3</option>
 							</select>
 						
-						<label for="pattern_type"></label><br />
-							<select name="pattern_type" id="pattern_type">
+						<label for="pattern_type"></label><br/>
+							<select name="pattern_type" id="pattern_type" class="selectMargin">
 									<option value="">Pattern Def Type</option>
-									<option value="">ta Soeur2</option>
-									<option value="">ta Maman2</option>
-									<option value="">ta Grand-Maman2</option>
+									<option value="">Exemple 1</option>
+									<option value="">Exemple 2</option>
+									<option value="">Exemple 3</option>
 							</select>
 						<div class="divCenter">
 							<button class="submit" type="button"/>Rechercher</button>

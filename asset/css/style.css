@@ -379,5 +379,9 @@ select:focus{
 }
 
 .searchPattern{
-  display: none;
+  
+}
+
+.selectMargin{
+  margin-left: 200px;
 }
