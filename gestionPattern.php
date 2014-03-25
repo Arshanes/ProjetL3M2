@@ -12,7 +12,7 @@
 			include('./vues/header.php');
 			?>
 			<div id="container">
-			<?php include('./vues/Vue_gestionPattern.php'); ?>
+			<?php include('./vues/vue_gestionPattern.php'); ?>
 			</div>
 			<?php
 			include('./vues/footer.php');
