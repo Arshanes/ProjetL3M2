@@ -378,5 +378,13 @@ select:focus{
 }
 
 .searchPattern{
+<<<<<<< HEAD
   /*display: none;*/
+=======
+  
+}
+
+.selectMargin{
+  margin-left: 200px;
+>>>>>>> 7265a522c74244153d4c107fff3b9079467dc9cd
 }
