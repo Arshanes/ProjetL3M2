@@ -12,7 +12,7 @@
 			include('./vues/header.php');
 			?>
 			<div id="container">
-			<?php include('./vues/Vue_inscription.php'); ?>
+			<?php include('./vues/vue_inscription.php'); ?>
 			</div>
 			<?php
 			include('./vues/footer.php');

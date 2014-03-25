@@ -34,11 +34,11 @@
 				<label for="ville" class="labelInput"><span class="red bold">* </span> Ville :</label>
 				<input type="text" name="ville" id="ville"class="input-large"/><br/>
 				
-				<label for="tel" class="labelInput"><span class="red bold">* </span> Numéro de téléphone :</label>
+				<label for="tel" class="labelInput"><span class="red bold">* </span> Téléphone :</label>
 				<input type="text" name="tel" id="tel" class="input-large"/><br/>
 			</fieldset>
 				<div class="divCenter">
-					<button class="submit" type="submit" >S'inscrire </button>
+					<button class="submit">S'inscrire </button>
 					<button class="btn btn-inverse reset" type="reset" >Effacer </button>
 				</div>
 		</form>
